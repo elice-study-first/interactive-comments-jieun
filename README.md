@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive comments section solution
+# Frontend Mentor - Interactive comments section
 
 This is a solution to the [Interactive comments section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9).
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/images/project-screenshot.png)
+![](./images/project-screenshot.png)
 
 ### Links
 
@@ -45,8 +45,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
