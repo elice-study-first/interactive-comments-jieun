@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <script type="module" src="./src/index.jsx"></script>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<html lang="ko">
 
-    <title>Frontend Mentor | Interactive comments section</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="./src/index.jsx"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <script src="./app.js" defer></script>
+
+  <title>Interactive comments section</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="commnet-list-section">
+    <ul class="list-container">
+      <li class="list">
+        <div class="list-top">
+          <h1 class="name">dsdfsd</h1>
+          <div class="list-top-buttons">
+            <button class="edit-btn">수정</button>
+            <button class="delete-btn">삭제</button>
+          </div>
+        </div>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus voluptate pariatur facilis
+          minus cumque? Nulla distinctio aut repellendus neque inventore, laudantium error dicta ipsum autem! Unde
+          impedit perferendis necessitatibus similique.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="comment-input-section">
+      <label class="username-wrap" for="username">
+        <input type="text" name="username" class="user-name-input" placeholder="이름">
+      </label>
+    <div class="comment-wrap">
+      <textarea type="text" name="comment" class="comment" placeholder="코멘트를 남겨주세요."></textarea>
+      <button class="send_btn">올리기</button>
+    </div>
+  </section>
+</body>
+
 </html>
